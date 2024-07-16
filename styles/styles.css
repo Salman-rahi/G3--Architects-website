@@ -4,3 +4,129 @@
 body{
     font-family: "Work Sans", sans-serif;
 }
+
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+main > section{
+    margin-top: 130px;
+}
+
+/* Universal Styles */
+.display-flex{
+    display: flex;
+}
+
+/* Dark 02 */
+.text-gary{
+    color: rgb(66,66,66);
+}
+
+/* Dark 02 */
+.text-light-gray{
+    color: #727272;
+}
+
+.bg-light{
+    background-color: rgba(255, 144, 14, 0.1);;
+}
+
+.btn-primary{
+    background: rgb(255, 144, 14);
+    color: white;
+    border-radius: 8px;
+    padding: 20px 25px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: none;
+}
+
+
+/* Universal Styles  End*/
+/* ---------------------------------------------------------------------------------- */
+/* /* Navbar styles  Start*/
+.navbar{
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+.brand{
+    font-weight: 700;
+    font-size: 3rem;
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/* /* Navbar styles End*/
+/* ---------------------------------------------------------------------------------- */
+/* banner styles */
+
+.banner-content{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.banner-titel{
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.banner-description{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(114, 114, 114);
+}
+
+.banner-img{
+    width: 100%;
+}
+
+/* banner styles End*/
+/* ----------------------------------------------------------------------------------- */
+/* Header styles */
+.our-features{
+    margin-left: 130px;
+    max-width: 530px;
+}
+.team{
+    align-items: center;
+}
+
+.team-img-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+
+.features-titel{
+    font-size: 2.8rem;
+    font-weight: 700;
+    
+} 
+
+#quick-list{
+    font-weight: 500;
+}
+
+#features{
+    color:rgb(255, 144, 14); ;
+}
+
+
