@@ -131,7 +131,63 @@ main > section{
     color:rgb(255, 144, 14); ;
 }
 
+
+/* features styyles */
+
+
+.features{
+    gap: 100px;
+    position: relative;
+}
+#features-section-titel{
+    border-left: 8px solid #ff900e;
+    padding-left: 20px;
+}
+
+.features-card-title{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.features-card{
+    font-weight: 600;
+    font-size: 1.25rem;
+    padding: 20px;
+    box-shadow: 0 4px 30px 0 rgba(0,0,0,0.06);
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+
+
+
+.experience-img img{
+    position: relative;
+}
+
+#experience-badge{
+    padding: 45px 42px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    
+}
+
+
+#experience-year{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.mybtn{
+    position: absolute;
+    left: 655px;
+    bottom: 113px;
+}
+
+
 /* Fact realted styles */
+
+
 .fact-container{
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -170,6 +226,8 @@ main > section{
     margin-top: 10px;
 }
 
+
+
 /* Sponsor stylea */
 
 .sponspors-info{
@@ -186,3 +244,21 @@ main > section{
 .sponsor-company img{
     filter: grayscale(100%);
 }
+
+/* Footer */
+.footer{
+    max-width: 1440px;
+    background-color: #ff8f0e3b;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+    border-radius: 10px;
+    border: none;
+}
+
+.footer p{
+    padding: 20px;
+}
+
+
+

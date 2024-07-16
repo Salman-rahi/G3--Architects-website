@@ -12,6 +12,21 @@
         margin-left: 20px;
     }
 
+    .features {
+        flex-direction: column;
+    }
+
+    .experience-img img{
+        width: 100%;
+    }
+
+    .mybtn{
+        position: relative;
+        left: 0px;
+        bottom: 0px;
+        margin-top: 20px;
+    }
+
     .fact-container {
         grid-template-columns: repeat(1, 1fr);
         justify-items: center;
@@ -35,6 +50,26 @@
     .our-features{
         margin: 50px auto;
     }
+
+    .features {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .experience-img img{
+        width: 100%;
+    }
+
+    .mybtn{
+        position: relative;
+        left: 0px;
+        bottom: 0px;
+        margin-top: 20px;
+        margin-left: 250px;
+        
+    }
+
+    
 
     .fact-container{
         grid-template-columns: repeat(2,1fr);
