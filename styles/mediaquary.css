@@ -11,6 +11,19 @@
     .our-features{
         margin-left: 20px;
     }
+
+    .fact-container {
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        align-items: center;
+        gap: 24px;
+    }
+
+    .sponsor-company{
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        gap: 50px;
+    }
 }
 
 
@@ -21,5 +34,19 @@
     }
     .our-features{
         margin: 50px auto;
+    }
+
+    .fact-container{
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+        gap: 50px;
+        
+    }
+
+    .sponsor-company{
+        grid-template-columns: repeat(3,1fr);
+        gap: 50px;
+        justify-items: center;
+        
     }
 }
